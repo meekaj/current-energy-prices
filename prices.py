@@ -11,7 +11,6 @@ energy_prices = web.DataReader(codes, 'fred', start, end)
 
 energy_prices.rename(columns={
     'DCOILWTICO': 'Crude Oil Price (WTI)',
-    'APU000074714': 'Average Gasoline Price (US)',
     'DHHNGSP': 'Henry Hub Natural Gas Spot Price'
 }, inplace=True)
 
@@ -19,7 +18,6 @@ plt.figure(figsize=(14, 7))
 
 # Plot each energy price as a separate line
 plt.plot(energy_prices.index, energy_prices['Crude Oil Price (WTI)'], label='Crude Oil Price (WTI)', color='blue')
-plt.plot(energy_prices.index, energy_prices['Average Gasoline Price (US)'], label='Average Gasoline Price (US)', color='red')
 plt.plot(energy_prices.index, energy_prices['Henry Hub Natural Gas Spot Price'], label='Henry Hub Natural Gas Spot Price', color='green')
 
 # Adding titles and labels
