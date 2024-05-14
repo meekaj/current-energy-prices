@@ -1,4 +1,4 @@
-# US Energy Prices Visualization
+# US Energy Prices Visualisation
 
 This Python program provides a visual analysis of US energy prices over time, specifically focusing on Crude Oil Prices (WTI), and Henry Hub Natural Gas Spot Prices from the year 2000 onwards.
 
@@ -26,7 +26,7 @@ Simply run the script, and the graph will automatically generate, displaying the
 
 The graph presents several key observations:
 
-1. **Crude Oil Price (WTI)**: The price of crude oil shows significant volatility. Notable peaks occur around 2008 and 2014, with a dramatic fall in prices seen starting in late 2014 and another sharp decline in 2020. These fluctuations can generally be attributed to global economic conditions, geopolitical tensions, and changes in supply and demand.
+1. **Crude Oil Price (WTI)**: The price of crude oil shows significant volatility. Notable peaks occurred around 2008 and 2014, with a dramatic fall in prices starting in late 2014 and another sharp decline in 2020. These fluctuations can generally be attributed to global economic conditions, geopolitical tensions, and changes in supply and demand.
 
 2. **Average Gasoline Price (US)**: Gasoline prices closely follow the trends in crude oil prices due to crude oil being a primary input in gasoline production. The peaks and troughs in gasoline prices correlate with those of crude oil, albeit with less amplitude.
 
