@@ -1,6 +1,6 @@
 # US Energy Prices Visualization
 
-This Python program provides a visual analysis of US energy prices over time, specifically focusing on Crude Oil Prices (WTI), Average Gasoline Prices in the US, and Henry Hub Natural Gas Spot Prices from the year 2000 onwards.
+This Python program provides a visual analysis of US energy prices over time, specifically focusing on Crude Oil Prices (WTI), and Henry Hub Natural Gas Spot Prices from the year 2000 onwards.
 
 ## Description
 
